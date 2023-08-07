@@ -1,6 +1,6 @@
 # Scope Of Work
 
-![Preview](./images/jenkins1.png?raw=true)
+![preview](images/jenkins1.png)
 
  * Maven Installation
 
