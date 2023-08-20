@@ -1,10 +1,10 @@
 # Scope Of Work
 
-![preview](images/jenkins1.png)
+![image](../images/jenkins1.png)
 
- * Maven Installation
+ * ## Maven Installation
 
-     Step-1
+    ## Step-1
     #### Install java 17
 
     ```
@@ -12,7 +12,7 @@
     sudo apt install openjdk-17-jdk -y
     ```
 
-    Step-2
+    ## Step-2
     #### Installing maven option 1
 
     ```
@@ -33,19 +33,19 @@
     visudo
     ```
 
-    ![Image](images/jenkins2.png)
+    ![Image](../images/jenkins2.png)
 
-    - CTL + S -> Save for nano editor
-    - CTL + X -> Exit from nano Editor
+        - CTL + S -> Save for nano editor
+        - CTL + X -> Exit from nano Editor
 
-    * Install maven
+    * ## Installing maven
     ```
     sudo apt-cache madison maven
     sudo apt install maven -y
     ```
 
-    #### Installing Jenkins
-    Step 1:
+    * ## Installing Jenkins
+    ### Step 1:
     Create a installjenkins.sh
     ```
     #!/bin/bash
@@ -60,14 +60,14 @@
 
     :wq / :x  --> Save and close file of vim
 
-    Step 2: check status of jenkins
+   ### Step 2: check status of jenkins
     ```
     chmod +x installjenkins.sh
     ./installjenkins.sh
     sudo systemctl status jenkins
     ```
 
-    ![Image](/images/jenkins3.png)
+    ![Image](../images/jenkins3.png)
 
     [Refer](https://directdevops.blog/2023/07/15/devops-classroomnotes-15-jul-2023/)
 
